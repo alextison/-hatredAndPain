@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{controller_name}} {% endblock %}
+
+{% block body %}
+    <section id="banner" class="w-full p-10 grid grid-cols-5 grid-flow-col gap-4">
+        <img src="https://picsum.photos/400/200" class="image-container h-full col-span-3 w-full"></img>
+        <div id="ranking-preview" class="ranking-preview h-full col-span-2 text-xl text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut dicta iste reiciendis sunt nisi sequi provident commodi. Consequatur, similique aspernatur esse eos doloribus numquam libero atque expedita praesentium et.
+        </div>
+    </section>
+    <section id="rankings" class="w-full p-10 flex flex-wrap justify-evenly text-4xl uppercase">
+        <a href="" class="link-container bg-[#6A994E] m-5 p-20 rounded-3xl ease-in-out duration-200 hover:scale-105 hover:shadow-xl active:scale-95">Global Rankings</a>
+        <a href="" class="link-container bg-[#6A994E] m-5 p-20 rounded-3xl ease-in-out duration-200 hover:scale-105 hover:shadow-xl active:scale-95">Table Rankings</a>
+        <a href="" class="link-container bg-[#6A994E] m-5 p-20 rounded-3xl ease-in-out duration-200 hover:scale-105 hover:shadow-xl active:scale-95">Category Rankings</a>
+    </section>
+    <section id="presentation" class="w-full p-10">
+        <h2 class="text-2xl">Presentation</h2>
+        <p>
+            Laboris minim ipsum aute consequat dolore eu nisi dolor sint aliqua ad. Elit ipsum sit incididunt eu pariatur quis consectetur enim sit laboris occaecat tempor. Veniam sunt amet dolore irure id. Est laboris qui ut laborum laboris nulla. Officia consequat aliquip elit laborum cillum laboris enim consectetur anim non veniam non excepteur id. Enim proident commodo fugiat eiusmod minim dolore do consequat.
+        </p>
+    </section>
+{% endblock %}
